@@ -33,6 +33,7 @@ public class MyFirstStepDef {
 	
 	{
 		driver.findElement(By.id("email")).sendKeys("Adarsh");
+		System.out.println("Entering username.");
 	}
 	
 	@Then("User checks user name is present")
